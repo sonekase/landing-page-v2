@@ -108,6 +108,21 @@ a {
   color: black;
 }
 
+/*#initial-showing {
+  display: none;
+}*/
+/*.h1[category^="clickable"] {
+  color: pink;
+}*/
+
+.clickable {
+  color: pink;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
 .skills {
   text-overflow: ellipsis;
   color: black;
