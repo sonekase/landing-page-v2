@@ -127,9 +127,13 @@ a {
   color: black;
 }
 
+.clickable:hover {
+  color: gray;
+}
+
 img {
-  width: 200px;
-  height: 200px;
+  width: 195px;
+  height: 195px;
   display: table-cell;
   vertical-align: middle;
   border: gray;
@@ -170,4 +174,11 @@ color: gray;
   p {
     font-size: 100%;
     line-height: 160%;
+  }
+
+  @media only screen and (min-width 400px) {
+    img {
+      margin: 0;
+      width: 100%;
+    }
   }

@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
 
@@ -18,27 +20,27 @@
       </div>
     </section>
 
-    <div class="container">
-      <div class="projects">
-        <h2><span class="big">Projects</span></h2>
-          <p>Projects that I created during my first week at Epicodus.</p>
-          <ul>
-            <span class="list"><li><a href="https://github.com/sonekase/week-in-review">week-in-review</a></li>
-              <p>Introduces one to the front-end framework Bootstrap.</p>
-              <span class="program"><p>HTML, CSS, Bootstrap, Markdown</p></span>
-            <li><a href="https://github.com/sonekase/styling-review">styling-review</a></li>
-              <p>Course lessons on how to utilize CSS to stylize projects.</p>
-              <span class="program"><p>HTML, CSS, Markdown</p></span>
-            <li><a href="https://sonekase.github.io/private-island/">private-island</a></li>
-              <p>Created a webpage for a private island resort while practice branching and merging.</p>
-              <span class="program"><p>HTML, CSS, Markdown</p></span>
-            <li><a href="https://sonekase.github.io/cupcake_project/">cupcake_project</a></li>
-              <p>Utilization of CSS to create a cupcake shop webpage.</p>
-              <span class="program"><p>HTML, CSS, Markdown</p></span>
-            <li><a href="https://github.com/sonekase/my-first-webpage">my-first-webpage</a></li></span>
-              <p>First webpage creation with the assistance of Epicodus.</p>
-              <span class="program"><p>HTML, CSS, Markdown</p></span>
-          </ul>
+        <div class="container">
+          <div class="projects">
+            <h2><span class="big">Projects</span></h2>
+              <p>Projects that I created during my first week at Epicodus.</p>
+              <ul>
+                <span class="list"><li><a href="https://github.com/sonekase/week-in-review">week-in-review</a></li>
+                  <p>Introduces one to the front-end framework Bootstrap.</p>
+                  <span class="program"><p>HTML, CSS, Bootstrap, Markdown</p></span>
+                <li><a href="https://github.com/sonekase/styling-review">styling-review</a></li>
+                  <p>Course lessons on how to utilize CSS to stylize projects.</p>
+                  <span class="program"><p>HTML, CSS, Markdown</p></span>
+                <li><a href="https://sonekase.github.io/private-island/">private-island</a></li>
+                  <p>Created a webpage for a private island resort while practice branching and merging.</p>
+                  <span class="program"><p>HTML, CSS, Markdown</p></span>
+                <li><a href="https://sonekase.github.io/cupcake_project/">cupcake_project</a></li>
+                  <p>Utilization of CSS to create a cupcake shop webpage.</p>
+                  <span class="program"><p>HTML, CSS, Markdown</p></span>
+                <li><a href="https://github.com/sonekase/my-first-webpage">my-first-webpage</a></li></span>
+                  <p>First webpage creation with the assistance of Epicodus.</p>
+                  <span class="program"><p>HTML, CSS, Markdown</p></span>
+              </ul>
 
         <p>In list of order, first projects I learned to create in Epicodus.</p>
           <ol>
@@ -130,7 +132,8 @@
         </div>
 
         <div class="container">
-          <h1 id="camera"> -My Photographs- </h1>
+        <div id="initially-showing">
+          <h1 id="camera"><span class="clickable">-My Photographs- </h1></span>
           <div class="row">
             <div class="col-md-2">
             <img src="img/9.jpg" alt="">
@@ -158,6 +161,7 @@
           </div>
         </div>
       </div>
+      </div>
 
       </section>
           <div class="icons">
@@ -169,5 +173,12 @@
       <footer>
         <p id="end">2018 Anousone Kaseumsouk</p>
       </footer>
+
+    <script src='../js/.aos.js'></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
   </body>
 </html>
